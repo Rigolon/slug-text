@@ -1,2 +1,2 @@
 # slug-text
-Converter texto normal para texto limpo e sem acentos
+Converter texto para texto limpo e sem acentos
