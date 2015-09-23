@@ -10,7 +10,7 @@ function slug(str) {
     str = str.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i));
   };
 
-  str = str.replace(/\./g, '-').replace(/[^a-z0-9 -.]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-');
+  str = str.replace(/\./g, '-').replace(/[^a-z0-9 -]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-');
 
   return str;
 }
